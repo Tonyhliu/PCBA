@@ -1,0 +1,42 @@
+.splash-img {
+  background-image: url(http://res.cloudinary.com/dcbb8bnvk/image/upload/v1471227843/pcba_jwbjaj.jpg);
+  background-size: cover;
+  max-height: 95vh;
+  height: 95vh;
+  max-width: 98vw;
+  width: 98vw;
+  overflow: hidden;
+}
+
+.splash-link{
+  position: absolute;
+  font-size: 40px;
+  /*color: white;*/
+  top: -50%;
+  bottom: 0;
+  left: 25%;
+  right: 0;
+  margin: auto;
+  width: 100px;
+  height: 20px;
+
+  white-space: nowrap;
+  padding: 15px 60px;
+  color: white;
+  font-size: 20px;
+  border-radius: 3px;
+  text-decoration: none;
+  background: rgba(244, 21, 44, 0.33);
+  letter-spacing: 0.1em;
+  /*display: block;
+  text-align: end;
+  margin-top: 8%;
+  margin-right: 29%;*/
+}
+
+.splash-link:hover{
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}

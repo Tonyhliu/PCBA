@@ -14,7 +14,6 @@ const appRouter = (
   <Router history={hashHistory}>
     <Route path="/" component={ App }>
       <IndexRoute component={ Splash } />
-      <Route path="homepage" component={ Homepage }></Route>
     </Route>
   </Router>
 )
