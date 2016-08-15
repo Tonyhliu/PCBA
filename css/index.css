@@ -12,11 +12,12 @@
   position: absolute;
   font-size: 40px;
   /*color: white;*/
-  top: -50%;
-  bottom: 0;
-  left: 25%;
-  right: 0;
-  margin: auto;
+  /*top: -70%;*/
+  /*bottom: 20%;*/
+  /*left: 35%;*/
+  /*right: 0;*/
+  margin-left: 60%;
+  margin-top: 50%;
   width: 100px;
   height: 20px;
 
@@ -35,6 +36,10 @@
 }
 
 .splash-link:hover{
+}
+
+.splash-div {
+  position: relative;
 }
 
 * {

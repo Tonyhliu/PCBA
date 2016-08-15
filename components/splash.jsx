@@ -6,8 +6,10 @@ module.exports = React.createClass({
   render() {
     return (
     <div className="splash-img">
+      <div className="splash-div">
         <a href="homepage.html"
           className="splash-link hvr-shutter-out-horizontal">Enter Page</a>
+      </div>
     </div>
     );
   }
