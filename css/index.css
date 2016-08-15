@@ -9,14 +9,15 @@
 }
 
 .splash-link{
-  position: absolute;
+  /*position: absolute;*/
+  position: fixed;
   font-size: 40px;
   /*color: white;*/
-  /*top: -70%;*/
-  /*bottom: 20%;*/
-  /*left: 35%;*/
-  /*right: 0;*/
-  margin-left: 60%;
+  top: -70%;
+  bottom: 20%;
+  left: 35%;
+  right: 0;
+  /*margin-left: 60%;*/
   margin-top: 50%;
   width: 100px;
   height: 20px;
