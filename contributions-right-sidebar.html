@@ -43,7 +43,6 @@
         <!-- owl carouserl js -->
         <script src="js/owl.carousel.min.js"></script>
         <!-- bootstrap js -->
-
         <script src="js/bootstrap.min.js"></script>
         <!-- wow js -->
         <script src="js/wow.min.js"></script>
@@ -58,7 +57,7 @@
         ==================================================
         Header Section Start
         ================================================== -->
-        <header id="top-bar" class="navbar-fixed-top animated-header">
+        <header id="top-bar" class="navbar-inverse navbar-fixed-top animated-header">
             <div class="container">
                 <div class="navbar-header">
                     <!-- responsive nav button -->
@@ -96,8 +95,10 @@
                                     </ul>
                                 </div>
                             </li>
+
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">contributions <span class="caret"></span></a>
+                                <div class="dropdown-menu"></a>
                                 <div class="dropdown-menu">
                                     <ul>
                                         <li><a href="contributions-fullwidth.html">contributions Full</a></li>
@@ -123,7 +124,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block">
-                            <h2>Full Width contributions</h2>
+                            <h2>contributions With Right Sidebar</h2>
                             <ol class="breadcrumb">
                                 <li>
                                     <a href="index.html">
@@ -131,7 +132,7 @@
                                         Home
                                     </a>
                                 </li>
-                                <li class="active">contributions</li>
+                                <li class="active">Contributions</li>
                             </ol>
                         </div>
                     </div>
@@ -141,7 +142,7 @@
             <section id="contributions-full-width">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-8">
                             <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
                                 <div class="contributions-post-image">
                                     <a href="post-fullwidth.html"><img class="img-responsive" src="images/contributions/post-1.jpg" alt="" /></a>
@@ -200,64 +201,138 @@
 
                             </article>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <!--
-            ==================================================
-            Call To Action Section Start
-            ================================================== -->
-            <section id="call-to-action">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="300ms">SO WHAT YOU THINK ?</h1>
-                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="300ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p>
-                                <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="300ms">Contact With Me</a>
+                        <div class="col-md-4">
+                            <div class="sidebar">
+                                <div class="search widget">
+                                    <form action="" method="get" class="searchform" role="search">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search for...">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-default" type="button"> <i class="ion-search"></i> </button>
+                                            </span>
+                                            </div><!-- /input-group -->
+                                        </form>
+                                    </div>
+                                    <div class="author widget">
+                                        <img class="img-responsive" src="images/author/author-bg.jpg">
+                                        <div class="author-body text-center">
+                                            <div class="author-img">
+                                                <img src="images/author/author.jpg">
+                                            </div>
+                                            <div class="author-bio">
+                                                <h3>Jonathon Andrew</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt magnam asperiores consectetur, corporis ullam impedit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="categories widget">
+                                        <h3 class="widget-head">Categories</h3>
+                                        <ul>
+                                            <li>
+                                                <a href="">Audio</a> <span class="badge">1</span>
+                                            </li>
+                                            <li>
+                                                <a href="">Gallery</a> <span class="badge">2</span>
+                                            </li>
+                                            <li>
+                                                <a href="">Image</a> <span class="badge">4</span>
+                                            </li>
+                                            <li>
+                                                <a href="">Standard</a> <span class="badge">2</span>
+                                            </li>
+                                            <li>
+                                                <a href="">Status</a> <span class="badge">3</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="recent-post widget">
+                                        <h3>Recent Posts</h3>
+
+                                        <ul>
+                                            <li>
+                                                <a href="#">Corporate meeting turns into a photoshooting.</a><br>
+                                                <time>16 May, 2015</time>
+                                            </li>
+                                            <li>
+                                                <a href="#">Statistics,analysis. The key to succes.</a><br>
+                                                <time>15 May, 2015</time>
+                                            </li>
+                                            <li>
+                                                <a href="#">contributions post without image, only text.</a><br>
+                                                <time>14 May, 2015</time>
+                                            </li>
+                                            <li>
+                                                <a href="#">contributions post with audio player. Share your creations.</a><br>
+                                                <time>14 May, 2015</time>
+                                            </li>
+                                            <li>
+                                                <a href="#">contributions post with classic Youtbube player.</a><br>
+                                                <time>12 May, 2015</time>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
+                    </section>
+                    <!--
+                    ==================================================
+                    Call To Action Section Start
+                    ================================================== -->
+                    <section id="call-to-action">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="block">
+                                        <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="300ms">SO WHAT YOU THINK ?</h1>
+                                        <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="300ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,</br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p>
+                                        <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="300ms">Contact With Me</a>
+                                    </div>
+                                </div>
 
-                    </div>
-                </div>
-            </section>
-            <!--
-            ==================================================
-            Footer Section Start
-            ================================================== -->
-            <footer id="footer">
-                <div class="container">
-                    <div class="col-md-8">
-                    </div>
-                    <div class="col-md-4">
-                        <!-- Social Media -->
-                        <ul class="social">
-                            <li>
-                                <a href="#" class="Facebook">
-                                    <i class="ion-social-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="Twitter">
-                                    <i class="ion-social-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="Linkedin">
-                                    <i class="ion-social-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="Google Plus">
-                                    <i class="ion-social-googleplus"></i>
-                                </a>
-                            </li>
+                            </div>
+                        </div>
+                    </section>
+                    <!--
+                    ==================================================
+                    Footer Section Start
+                    ================================================== -->
+                    <footer id="footer">
+                        <div class="container">
+                            <div class="col-md-8">
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Social Media -->
+                                <ul class="social">
+                                    <li>
+                                        <a href="#" class="Facebook">
+                                            <i class="ion-social-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="Twitter">
+                                            <i class="ion-social-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="Linkedin">
+                                            <i class="ion-social-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="Google Plus">
+                                            <i class="ion-social-googleplus"></i>
+                                        </a>
+                                    </li>
 
-                        </ul>
-                    </div>
-                </div>
-                </footer> <!-- /#footer -->
+                                </ul>
+                            </div>
+                        </div>
+                    </footer> <!-- /#footer -->
 
-            </body>
-        </html>
-    </html>
+                    </body>
+                </html>
+            </html>

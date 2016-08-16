@@ -2,9 +2,9 @@
   height: 50px;
 }
 
-/*#top-bar {
-  background: rgba(56, 56, 56, 0.57);
-}*/
+.hero-paragraph {
+  font-size: 1.6em;
+}
 
 .h1-pcba {
   color: white;
