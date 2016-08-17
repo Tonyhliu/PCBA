@@ -90,14 +90,18 @@ a:hover {
   background: #444;
 }
 #top-bar {
-  background: #fff;
-  color: white;
+  /*background: #fff;*/
+  color: black;
   -webkit-transition: all 0.2s ease-out 0s;
   transition: all 0.2s ease-out 0s;
   padding: 15px 0;
   -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #dedede;
+  padding: 20px 0;
+  border-bottom: black;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: none;
 }
 #top-bar .navbar-nav > li > a:hover {
   background: transparent;
