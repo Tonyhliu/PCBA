@@ -25,5 +25,6 @@
 }
 
 #top-bar.alt {
-  visibility: hidden;
+  /*visibility: hidden;*/
+  display: none;
 }
