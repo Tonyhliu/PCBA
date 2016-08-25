@@ -12,9 +12,17 @@
   color: white;
 }
 
-.photo-album {
+.photo-album, .calendar {
   background-color: #222222;
   text-align: center;
+}
+
+.calendar {
+  height: 850px;
+}
+
+.calendar-iframe {
+  margin-top: 25px;
 }
 
 .scholarship-page {
