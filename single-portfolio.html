@@ -128,9 +128,15 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block">
-                            <h2>SAMPLE UPCOMING EVENTS</h2>
+                            <h2>UPCOMING EVENTS</h2>
                             <div class="portfolio-meta">
-                               <span>Dec 11, 2020</span>
+                               <span>
+                                 <script>
+                                  var today = new Date();
+                                  // window.today = today;
+                                  document.write(today.toString().slice(0, 15));
+                                  </script>
+                              </span>
                                <!-- <span> Category: typography</span>|
                                <span> website: <a href="http://www.themefisher.com">Themefisher</a></span> -->
                             </div>
