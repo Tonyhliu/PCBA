@@ -904,7 +904,7 @@ article {
   margin-bottom: 25px;
 }
 .contributions-content .contributions-meta span:after {
-  content: '/';
+  /*content: '/';*/
   padding: 0 3px 0 6px;
 }
 .contributions-content .contributions-meta a {

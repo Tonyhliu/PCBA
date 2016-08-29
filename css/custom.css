@@ -35,6 +35,9 @@
 }
 
 #top-bar.alt {
-  /*visibility: hidden;*/
   display: none;
+}
+
+.contributions-image {
+  width: 100%;
 }
