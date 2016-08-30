@@ -16,17 +16,17 @@
             var $section = $(document).find( $(this).data('section') );
             if ( $section.length < 1 ) {
                 return false;
-            };
+            }
 
             if ( $('html, body').is(':animated') ) {
                 $('html, body').stop( true, true );
-            };
+            }
 
             var scrollPos = $section.offset().top;
 
             if ( $(window).scrollTop() == scrollPos ) {
                 return false;
-            };
+            }
 
             config.callbackBeforeTransition(eventVal, $section);
 
@@ -71,13 +71,13 @@ $(document).ready(function(){
     });
 
     $("#clients-logo").owlCarousel({
- 
+
         itemsCustom : false,
         pagination : false,
         items : 5,
         autoplay: true,
 
-    })
+    });
 
 });
 
@@ -95,8 +95,8 @@ $(".fancybox").fancybox({
 
     closeClick : true,
     helpers : {
-        title : { 
-            type: 'inside' 
+        title : {
+            type: 'inside'
         },
         overlay : {
             css : {
@@ -105,14 +105,3 @@ $(".fancybox").fancybox({
         }
     }
 });
-
-
-
-
-
-
- 
-
-
-
-
