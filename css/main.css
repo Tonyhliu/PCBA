@@ -871,18 +871,22 @@ ul.social-icons li {
   width: 33.33%;
   padding: 5%;
   float: left;
+  /*max-height: 43vh;*/
 }
 .about-feature .block p {
   font-weight: 300;
 }
 .about-feature .about-feature-1 {
   background: #a94d4d;
+  overflow: auto;
 }
 .about-feature .about-feature-2 {
   background: #a52c2c;
+  overflow: auto;
 }
 .about-feature .about-feature-3 {
   background: #943838;
+  overflow: auto;
 }
 #contributions-full-width {
   padding: 40px 0 80px;

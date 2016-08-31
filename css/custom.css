@@ -53,3 +53,7 @@
 .about-contact {
   color: #949494;
 }
+
+.about-row {
+  display: flex;
+}
