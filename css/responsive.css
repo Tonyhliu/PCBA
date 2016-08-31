@@ -74,6 +74,9 @@ px      68    160    252    */
   figure .buttons {
     left: 37%;
   }
+  #details-but {
+    left: 32%;
+  }
   #feature .media {
     margin: 0px 0px 35px;
   }
