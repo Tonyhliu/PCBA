@@ -62,6 +62,16 @@ px      68    160    252    */
   #hero-area {
     padding: 140px 0;
   }
+  span.cd-words-wrapper {
+    width: 300px;
+  }
+  span.cd-words-wrapper b {
+    /*max-width: 300px;*/
+    word-wrap: break-word;
+  }
+  .is-visible {
+    word-wrap: break-word;
+  }
   #hero-area .btn {
     margin-top: 8px;
   }

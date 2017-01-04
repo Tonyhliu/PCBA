@@ -27,6 +27,10 @@ ul li {
 h2 {
   font-size: 26px;
 }
+#player {
+  height: auto;
+  width: 100%;
+}
 a:hover {
   text-decoration: none;
 }
