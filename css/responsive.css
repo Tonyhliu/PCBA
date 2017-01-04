@@ -78,6 +78,9 @@ px      68    160    252    */
     /*added*/
     width: 100%;
     height: auto;
+    background: url(https://s3.amazonaws.com/pcba/pcba+site+pics/millbrae.jpg) no-repeat 75%;
+    background-size: cover;
+    /*background-attachment: fixed;*/
   }
   #hero-area .btn {
     margin-top: 8px;
