@@ -63,6 +63,12 @@ px      68    160    252    */
   .cd-words-wrapper {
     text-align: center;
   }
+  b:first-child {
+    font-size: 26px;
+  }
+  #player {
+    height: auto;
+  }
   #hero-area {
     padding: 140px 0;
   }

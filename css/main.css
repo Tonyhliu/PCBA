@@ -28,7 +28,7 @@ h2 {
   font-size: 26px;
 }
 #player {
-  height: auto;
+  /*height: auto;*/
   width: 100%;
 }
 a:hover {
