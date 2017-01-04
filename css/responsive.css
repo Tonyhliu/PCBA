@@ -52,6 +52,7 @@ px      68    160    252    344    436    528    620    712    */
 ---------------------------------------------
 cols    1     2      3
 px      68    160    252    */
+
 @media only screen and (max-width: 767px) {
   .title {
     font-size: 40px;
@@ -59,18 +60,11 @@ px      68    160    252    */
   .navbar-header .navbar-brand a {
     padding: 6px 8px;
   }
+  .cd-words-wrapper {
+    text-align: center;
+  }
   #hero-area {
     padding: 140px 0;
-  }
-  span.cd-words-wrapper {
-    width: 300px;
-  }
-  span.cd-words-wrapper b {
-    /*max-width: 300px;*/
-    word-wrap: break-word;
-  }
-  .is-visible {
-    word-wrap: break-word;
   }
   #hero-area .btn {
     margin-top: 8px;

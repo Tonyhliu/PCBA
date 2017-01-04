@@ -532,6 +532,8 @@ figure figcaption p {
 }
 .cd-headline.slide .cd-words-wrapper {
   color: #ff6f6f;
+  /* added */
+  max-width: 100%;
 }
 ul.social-icons {
   height: auto;
