@@ -75,6 +75,9 @@ px      68    160    252    */
   }
   #hero-area {
     padding: 140px 0;
+    /*added*/
+    width: 100%;
+    height: auto;
   }
   #hero-area .btn {
     margin-top: 8px;
