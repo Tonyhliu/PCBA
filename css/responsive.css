@@ -62,9 +62,13 @@ px      68    160    252    */
   }
   .cd-words-wrapper {
     text-align: center;
+    height: 100px;
   }
   b:first-child {
     font-size: 26px;
+  }
+  b:nth-child(2), b:last-child {
+    line-height: 100px;
   }
   #player {
     height: auto;
