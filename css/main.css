@@ -141,6 +141,12 @@ a:hover {
   right: auto;
   left: 0;
 }
+.dropdown .dropdown-menu {
+  visibility: hidden;
+}
+.open .dropdown-menu {
+  visibility: visible;
+}
 .navbar-custom .dropdown-menu {
   position: absolute;
   display: block;
