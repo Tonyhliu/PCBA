@@ -156,6 +156,15 @@ px      68    160    252    */
     color: #333;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
+  .mtwer {
+    margin-top: 50px;
+  }
+  .about-row {
+    flex-direction: column;
+  }
+  #about-1, #about-2, #about-3 {
+    width: 100%;
+  }
 }
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
