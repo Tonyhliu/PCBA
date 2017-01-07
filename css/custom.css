@@ -1,29 +1,24 @@
 .pcba-logo {
   height: 50px;
 }
-
 .hero-paragraph {
   font-size: 1.6em;
   letter-spacing: 0.01em;
   font-weight: 400;
 }
-
 .h1-pcba {
   color: white;
 }
-
 .photo-album, .calendar {
   background-color: #222222;
   text-align: center;
 }
-
 .calendar {
   position: relative;
   overflow: hidden;
   height: 0;
   padding-bottom: 75%;
 }
-
 .calendar-iframe {
   top: 0;
   left: 0;
@@ -31,36 +26,32 @@
   height: 100%;
   position: absolute;
 }
-
 .scholarship-page {
   text-align: center;
 }
-
 .scholarship-form {
   margin-top: 2%;
   padding-left: 25%;
 }
-
 #top-bar.alt {
   display: none;
 }
-
 .contributions-image {
   width: 100%;
 }
-
 .details-pic {
   height: 450px;
 }
-
 .details-headers {
   color: #a94d4d;
 }
-
 .about-contact {
   color: #949494;
 }
-
 .about-row {
   display: flex;
+}
+.past-events-ul > li, .upcoming-events-ul > li {
+  list-style-type: square;
+  margin: 10px 0px 0px 10px;
 }
