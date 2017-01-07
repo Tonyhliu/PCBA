@@ -9,10 +9,6 @@ Primary style
   display: inline-block;
   position: relative;
   text-align: left;
-  /*added */
-  /*word-wrap: break-word;
-  word-break: break-all;
-  overflow-wrap: break-word;*/
 }
 .cd-words-wrapper b {
   display: inline-block;
@@ -20,11 +16,7 @@ Primary style
   white-space: pre-wrap;
   left: 0;
   top: 0;
-  /*added */
-  /*white-space: nowrap;*/
   word-wrap: break-word;
-  /*word-break: break-all;*/
-  /*overflow-wrap: break-word;*/
 
 }
 .cd-words-wrapper b.is-visible {
