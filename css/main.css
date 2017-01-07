@@ -851,7 +851,12 @@ ul.social-icons li {
   position: relative;
 }
 .team-member .team-img .team-pic {
-  width: 100%;
+  width: 80%;
+  /*added*/
+  border-radius: 50%;
+}
+.col-md-3 {
+  text-align: center;
 }
 .team-member .team_designation {
   font-size: 13px;
