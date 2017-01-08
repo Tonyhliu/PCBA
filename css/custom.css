@@ -59,3 +59,16 @@
   list-style-type: square;
   margin: 10px 0px 0px 10px;
 }
+.map{
+    overflow:hidden;
+    padding-bottom:100%;
+    position:relative;
+    height:0;
+}
+.map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
