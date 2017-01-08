@@ -37,10 +37,14 @@
   display: none;
 }
 .contributions-image {
-  width: 100%;
+  width: 75%;
+  margin: auto;
+}
+.contributions-content {
+  text-align: center;
 }
 .details-pic {
-  height: 450px;
+  height: auto;
 }
 .details-headers {
   color: #a94d4d;
