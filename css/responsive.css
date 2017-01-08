@@ -135,6 +135,10 @@ px      68    160    252    */
     padding: 21px 10px;
     background: transparent;
   }
+  #top-bar {
+    /*position: fixed;
+    top: 10px;*/
+  }
   #top-bar .dropdown-menu > ul {
     list-style: none;
     padding: 0 15px;
