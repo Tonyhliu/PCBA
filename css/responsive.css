@@ -58,7 +58,8 @@ px      68    160    252    */
     font-size: 40px;
   }
   .navbar-header .navbar-brand a {
-    padding: 6px 8px;
+    /*padding: 6px 8px;*/
+    margin-left: 15px;
   }
   .cd-words-wrapper {
     text-align: center;
@@ -135,10 +136,6 @@ px      68    160    252    */
     padding: 21px 10px;
     background: transparent;
   }
-  #top-bar {
-    /*position: fixed;
-    top: 10px;*/
-  }
   #top-bar .dropdown-menu > ul {
     list-style: none;
     padding: 0 15px;
@@ -168,6 +165,13 @@ px      68    160    252    */
   }
   #about-1, #about-2, #about-3 {
     width: 100%;
+  }
+  div.form-link-center {
+    width: 50%;
+  }
+  .photo-album {
+    height: 500px;
+    width: 90%;
   }
 }
 /*		Wide Mobile Layout: 480px.

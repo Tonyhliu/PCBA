@@ -93,7 +93,7 @@ a:hover {
   background: #444;
 }
 #top-bar {
-  /*background: #fff;*/
+  /*position: absolute;*/
   color: black;
   -webkit-transition: all 0.2s ease-out 0s;
   transition: all 0.2s ease-out 0s;
@@ -101,7 +101,8 @@ a:hover {
   -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #dedede;
-  padding: 20px 0;
+  /*padding: 20px 0;*/
+  padding: 10px 0;
   border-bottom: black;
   background: rgba(0, 0, 0, 0.4);
   box-shadow: none;
@@ -110,7 +111,7 @@ a:hover {
   background: transparent;
 }
 #top-bar.animated-header {
-  padding: 20px 0;
+  padding: 10px 0;
   border-bottom: black;
   background: rgba(0, 0, 0, 0.4);
   box-shadow: none;
@@ -136,6 +137,9 @@ a:hover {
 .navbar-custom .nav li > a {
   position: relative;
   color: #000;
+}
+.fixed-header {
+  position: absolute;
 }
 .navbar-right .dropdown-menu {
   right: auto;
@@ -1026,10 +1030,10 @@ article {
   color: #fff;
 }
 .portfolio-single {
-  padding: 80px 0 20px;
+  padding: 20px 0 20px;
 }
 .portfolio-single .portfolio-content {
-  padding: 40px 0;
+  /*padding: 40px 0;*/
 }
 .single-post {
   padding: 80px 0 20px;

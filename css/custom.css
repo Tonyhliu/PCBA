@@ -1,5 +1,5 @@
 .pcba-logo {
-  height: 50px;
+  height: 45px;
 }
 .hero-paragraph {
   font-size: 1.6em;
@@ -12,6 +12,19 @@
 .photo-album, .calendar {
   background-color: #222222;
   text-align: center;
+  position: relative;
+  height: 600px;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.photo-album iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .calendar {
   position: relative;
@@ -54,6 +67,10 @@
 }
 .about-row {
   display: flex;
+}
+.form-link-center {
+  width: 25%;
+  margin: 0 auto;
 }
 .past-events-ul > li, .upcoming-events-ul > li {
   list-style-type: square;
