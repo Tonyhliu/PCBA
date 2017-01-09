@@ -380,6 +380,7 @@ figure figcaption {
   padding: 20px 25px;
   margin-top: 0;
   color: #666;
+  /*height: 115px;*/
 }
 figure figcaption h4 {
   margin: 0;
