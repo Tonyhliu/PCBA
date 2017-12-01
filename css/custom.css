@@ -47,7 +47,7 @@
   padding-left: 25%;
 }
 #top-bar.alt {
-  display: none;
+  /* display: none; */
 }
 .contributions-image {
   width: 75%;
