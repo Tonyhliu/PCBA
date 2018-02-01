@@ -92,7 +92,8 @@
 .gallery-sub {
   text-align: center;
 }
-.photo-gallery-link .photo-link {
+.photos-gallery-link .photo-link {
   font-size: 30px;
+  padding-bottom: 20px;
   text-align: center;
 }
