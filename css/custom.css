@@ -92,3 +92,7 @@
 .gallery-sub {
   text-align: center;
 }
+.photo-gallery-link .photo-link {
+  font-size: 30px;
+  text-align: center;
+}
